@@ -1,0 +1,16 @@
+{
+  "name": "vngroup-khao-sat",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-mock.mjs --seed 25",
+    "db": "node scripts/db.mjs",
+    "smoke": "node scripts/smoke-test.mjs",
+    "qr": "node scripts/make-qr.mjs"
+  },
+  "devDependencies": {
+    "pg": "^8.23.1",
+    "qrcode": "^1.5.4"
+  }
+}
